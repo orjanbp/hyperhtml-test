@@ -1,0 +1,32 @@
+{
+  "name": "hyperhtmltest",
+  "version": "1.0.0",
+  "description": "Test project for HyperHTML",
+  "private": true,
+  "dependencies": {
+    "hyperhtml": "^2.30.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "scripts": {
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/orjanbp/hyperhtml-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/orjanbp/hyperhtml-test/issues"
+  },
+  "homepage": "https://github.com/orjanbp/hyperhtml-test#readme"
+}
