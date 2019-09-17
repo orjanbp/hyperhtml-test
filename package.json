@@ -4,7 +4,9 @@
   "description": "Test project for HyperHTML",
   "private": true,
   "dependencies": {
-    "hyperhtml": "^2.30.5"
+    "hyperhtml": "^2.30.5",
+    "jss": "^9.8.7",
+    "jss-preset-default": "^4.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.5.5",
